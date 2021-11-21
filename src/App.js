@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='/rotateros512-2.png' className="App-logo" alt="logo" />
+        <img src='ros/rotateros512-2.png' className="App-logo" alt="logo" />
         <div className="App-text">
             <p>Things I do</p> {'\n'} 
             <Typewriter 
