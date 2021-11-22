@@ -36,6 +36,8 @@ function App() {
               />
         </div>
         <br />
+        <br />
+        <br />
 
         {/* <a
           className="App-link"
@@ -47,11 +49,11 @@ function App() {
         >
           Facebook
         </a> */}
-        <div className="App-Social-Icon">
-        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="facebook" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.facebook.com/pugii.agustin/" size="35" />  {'\n'}
-        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.instagram.com/ros.nitsuga/" size="35" /> {'\n'}
-        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.linkedin.com/in/ros-agustin-96016390/" size="35" /> {'\n'}
-        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="github" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://github.com/ros22" size="35" />
+        <div className="App-Social-Icon">          
+        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="facebook" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.facebook.com/pugii.agustin/" size="25" />  {'\n'}
+        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="instagram" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.instagram.com/ros.nitsuga/" size="25" /> {'\n'}
+        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="linkedin" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://www.linkedin.com/in/ros-agustin-96016390/" size="25" /> {'\n'}
+        <SocialMediaIconsReact borderColor="rgba(55,189,228,1)" borderWidth="5" borderStyle="solid" icon="github" iconColor="rgba(33,197,245,1)" backgroundColor="rgba(248,248,248,1)" iconSize="5" roundness="50%" url="https://github.com/ros22" size="25" />
         </div>
       </header>
     </div>
