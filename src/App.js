@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src='rotateros512-2.png' className="App-logo" alt="logo" />
         <div className="App-text">
-            <p>Things I do</p> {'\n'} 
+            <p>Things I do</p>
             <Typewriter 
                   options={{
                     loop: true,
@@ -19,16 +19,16 @@ function App() {
                   onInit={(typewriter)=> {        
                   typewriter
                                 
-                  .typeString("Work as Senior Quality Assurance Engineer")
+                  .typeString("Working as Senior QA Engineer")
                   .pauseFor(1000)
                   .deleteAll(10)
                   .typeString("Freelancing (Software Testing)")
                   .pauseFor(1000)
                   .deleteAll(10)
-                  .typeString("Play Badminton 4x a week")
+                  .typeString("Play Badminton")
                   .pauseFor(1000)
                   .deleteAll(10)
-                  .typeString("Travelling")
+                  .typeString("Travel")
                   .pauseFor(1000)
                   .deleteAll(10)
                   .start();
