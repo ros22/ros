@@ -1,4 +1,4 @@
-# This is Ros practise coding site mostly trying some coding on my freetime 
+# This is a personal site used for practising coding
 
 To see the live site visit https://ros22.github.io/ros/
 
