@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ros/static/css/main.e302ea3b.css",
-    "main.js": "/ros/static/js/main.e2db93d6.js",
+    "main.js": "/ros/static/js/main.87d91b38.js",
     "static/js/787.4802a7c0.chunk.js": "/ros/static/js/787.4802a7c0.chunk.js",
     "static/media/rotateros512-2.png": "/ros/static/media/rotateros512-2.e5ae0dc2ae8ec509d273.png",
     "index.html": "/ros/index.html",
     "main.e302ea3b.css.map": "/ros/static/css/main.e302ea3b.css.map",
-    "main.e2db93d6.js.map": "/ros/static/js/main.e2db93d6.js.map",
+    "main.87d91b38.js.map": "/ros/static/js/main.87d91b38.js.map",
     "787.4802a7c0.chunk.js.map": "/ros/static/js/787.4802a7c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e302ea3b.css",
-    "static/js/main.e2db93d6.js"
+    "static/js/main.87d91b38.js"
   ]
 }
