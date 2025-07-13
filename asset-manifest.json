@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/ros/static/css/main.1a2e6da2.chunk.css",
-    "main.js": "/ros/static/js/main.99e8ce75.chunk.js",
-    "main.js.map": "/ros/static/js/main.99e8ce75.chunk.js.map",
-    "runtime-main.js": "/ros/static/js/runtime-main.2af4784b.js",
-    "runtime-main.js.map": "/ros/static/js/runtime-main.2af4784b.js.map",
-    "static/js/2.4a686c68.chunk.js": "/ros/static/js/2.4a686c68.chunk.js",
-    "static/js/2.4a686c68.chunk.js.map": "/ros/static/js/2.4a686c68.chunk.js.map",
-    "static/js/3.96dbc018.chunk.js": "/ros/static/js/3.96dbc018.chunk.js",
-    "static/js/3.96dbc018.chunk.js.map": "/ros/static/js/3.96dbc018.chunk.js.map",
+    "main.css": "/ros/static/css/main.e302ea3b.css",
+    "main.js": "/ros/static/js/main.e2db93d6.js",
+    "static/js/787.4802a7c0.chunk.js": "/ros/static/js/787.4802a7c0.chunk.js",
+    "static/media/rotateros512-2.png": "/ros/static/media/rotateros512-2.e5ae0dc2ae8ec509d273.png",
     "index.html": "/ros/index.html",
-    "static/css/main.1a2e6da2.chunk.css.map": "/ros/static/css/main.1a2e6da2.chunk.css.map",
-    "static/js/2.4a686c68.chunk.js.LICENSE.txt": "/ros/static/js/2.4a686c68.chunk.js.LICENSE.txt"
+    "main.e302ea3b.css.map": "/ros/static/css/main.e302ea3b.css.map",
+    "main.e2db93d6.js.map": "/ros/static/js/main.e2db93d6.js.map",
+    "787.4802a7c0.chunk.js.map": "/ros/static/js/787.4802a7c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2af4784b.js",
-    "static/js/2.4a686c68.chunk.js",
-    "static/css/main.1a2e6da2.chunk.css",
-    "static/js/main.99e8ce75.chunk.js"
+    "static/css/main.e302ea3b.css",
+    "static/js/main.e2db93d6.js"
   ]
 }
