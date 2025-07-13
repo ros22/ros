@@ -41,11 +41,14 @@ function App() {
   };
 
   const skills = [
-    { name: 'Manual Testing', level: 95, color: '#4299e1' },
-    { name: 'Automation Testing', level: 90, color: '#63b3ed' },
-    { name: 'API Testing', level: 88, color: '#90cdf4' },
-    { name: 'Performance Testing', level: 85, color: '#bee3f8' },
-    { name: 'Mobile Testing', level: 82, color: '#ebf8ff' }
+    { name: 'Team Leadership', level: 95, color: '#4299e1' },
+    { name: 'Test Strategy Development', level: 92, color: '#63b3ed' },
+    { name: 'Test Management (JIRA)', level: 90, color: '#90cdf4' },
+    { name: 'Automation Testing (Selenium)', level: 88, color: '#bee3f8' },
+    { name: 'API Testing (Postman)', level: 85, color: '#ebf8ff' },
+    { name: 'Performance Testing (JMeter)', level: 85, color: '#4299e1' },
+    { name: 'Agile/Scrum Methodology', level: 90, color: '#63b3ed' },
+    { name: 'Manual Testing', level: 88, color: '#90cdf4' }
   ];
 
   return (
@@ -113,7 +116,8 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <div className="hero-text">
             <h1 className="hero-title">Ros Agustin</h1>
-            <p className="hero-subtitle">Senior QA Engineer</p>
+            <p className="hero-subtitle">QA Manager</p>
+            <p className="hero-headline">Passionate about Quality, Embracing Evolving Technologies, and Leading with a Growth Mindset through Context-Driven Testing</p>
             <div className="hero-typewriter">
               <Typewriter 
                 options={{
@@ -122,7 +126,7 @@ function App() {
                 typeSpeed={50}
                 onInit={(typewriter)=> {        
                   typewriter
-                    .typeString("Working as Senior QA Engineer")
+                    .typeString("Working as QA Manager")
                     .pauseFor(2000)
                     .deleteAll(30)
                     .typeString("Freelancing (Software Testing)")
@@ -151,27 +155,41 @@ function App() {
           <h2 className="section-title">About Me</h2>
           <div className="about-content">
             <div className="about-text">
-              <p>
-                I am a passionate Senior QA Engineer with extensive experience in software testing and quality assurance. 
-                My expertise spans across manual testing, automation, API testing, and performance testing.
-              </p>
-              <p>
-                I believe in delivering high-quality software that exceeds user expectations through thorough testing 
-                methodologies and innovative approaches.
-              </p>
+              <div className="about-typewriter">
+                <Typewriter 
+                  options={{
+                    loop: false,
+                    cursor: '|',
+                    delay: 30,
+                  }}
+                  onInit={(typewriter)=> {        
+                    typewriter
+                      .typeString("I enjoy solving real problems, improving processes, and learning along the way.")
+                      .pauseFor(1000)
+                      .typeString("<br/><br/>I believe good testing isn't one-size-fits-all — context matters. I'm drawn to context-driven testing because it lets me stay flexible, thoughtful, and focused on what really matters in each project.")
+                      .pauseFor(1000)
+                      .typeString("<br/><br/>I care about growth — mine, the team's, and the quality of the work we deliver. I'm curious about evolving tech, enjoy exploring new ways of working, and value clear communication, simplicity, and a sense of humor.")
+                      .pauseFor(1000)
+                      .typeString("<br/><br/>Outside of work, I like finding new interests, watching good movies, and learning anything that makes life more interesting.")
+                      .pauseFor(1000)
+                      .typeString("<br/><br/>Let's connect if you're into tech, quality-driven projects, or just figuring out the next step together.")
+                      .start();
+                  }}
+                />
+              </div>
             </div>
             <div className="about-stats">
               <div className="stat-item">
-                <div className="stat-number">5+</div>
+                <div className="stat-number">10+</div>
                 <div className="stat-label">Years Experience</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">50+</div>
-                <div className="stat-label">Projects Completed</div>
+                <div className="stat-number">15+</div>
+                <div className="stat-label">Testing Tools Mastered</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">100%</div>
-                <div className="stat-label">Client Satisfaction</div>
+                <div className="stat-number">10+</div>
+                <div className="stat-label">Team Members Led</div>
               </div>
             </div>
           </div>
@@ -210,7 +228,7 @@ function App() {
           <h2 className="section-title">Get In Touch</h2>
           <div className="contact-content">
             <div className="contact-text">
-              <p>Ready to work together? Let's discuss your project and how I can help ensure its quality.</p>
+              <p>Looking for a QA Manager? Let's discuss how I can lead your quality assurance initiatives and build high-performing QA teams.</p>
             </div>
             <div className="App-Social-Icon">          
               <SocialMediaIconsReact 
